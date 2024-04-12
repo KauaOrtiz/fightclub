@@ -1,24 +1,33 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .instagram-icon {
-    width: 100px;
-    height: auto;
-    cursor: pointer;
-    transform: scale(2);
-  }
-  
-  .caption {
-    color: #fff;
-    font-size: 16px;
-    margin-top: 10px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instagram-icon {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  transform: scale(3);
+}
+
+.caption-container {
+  margin-top: 100px; /* Ajuste a margem superior conforme necessário */
+  text-align: center;
+}
+
+.caption {
+  color: #fff;
+  font-size: 25px;
+}
