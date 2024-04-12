@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .instagram-icon {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    transform: scale(2);
+  }
+  
+  .caption {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
