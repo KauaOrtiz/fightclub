@@ -7,6 +7,7 @@ body {
   align-items: center;
   height: 100vh;
   position: relative;
+  overflow: hidden; 
 }
 
 .container {
@@ -33,6 +34,38 @@ body {
   z-index: 2;
 }
 
+@keyframes move-right {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes move-left {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.moving-left {
+  animation: move-left 5s linear infinite;
+}
+
+.moving-right {
+  animation: move-right 5s linear infinite;
+}
+
 .top-left {
   top: 10px;
   left: 10px;
@@ -54,7 +87,7 @@ body {
 }
 
 .corner-gif {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   cursor: pointer;
 }
