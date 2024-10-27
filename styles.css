@@ -24,6 +24,11 @@ body {
   transform: scale(3);
 }
 
+.caption-container {
+  margin-top: 100px;
+  text-align: center;
+}
+
 .caption {
   color: #fff;
   font-size: 25px;
